@@ -24,3 +24,15 @@
     transform: translate(-50%, -50%);
     position: absolute;
 }
+
+#welcomeTxt {
+    font-size: 3rem;
+}
+
+#cdTimerTxt {
+    font-size: 1.5rem;
+}
+
+#supportRefTxt {
+    font-size: 1.5rem;
+}

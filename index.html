@@ -26,21 +26,28 @@
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="navbar-nav px-3 ml-auto">
                         <li class="nav-item"><a class="nav-link" href="#body">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="download.html"">Download</a></li>  
                         <li class="nav-item"><a class="nav-link" href="support.html">Support</a></li>  
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Sliding Text & Images-->
-        <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid" id="downloadBgImg"></div>
+        <div class="container text-center" id="downloadText">
+              <h1 class="display-5">Welcome to iCare</h1>
+              <p class="display-4" id="cdTimerTxt" >A Smart Countdown Timer</p>
+              <p class="display-5">Download for Windows & MacOS</p>
+              <button class="btn-primary"><i class="fa fa-windows"></i> iCare for Windows</button>
+              <button class="btn-primary"><i class="fa fa-apple"></i> iCare for MacOS</button>
+            </div>
+        <!-- <div class="jumbotron jumbotron-fluid">
             <div class="container text-center">
-              <h1 class="display-4">Welcome to iCare</h1>
+              <h1 class="display-4" id="welcomeTxt">Welcome to iCare</h1>
               <p class="lead">A Smart Countdown Timer available for Windows and Mac</p>
               <p>Screen usage is at all time high and eye strain is becoming a common issue. iCare offers a solution.</p>
               <a class="btn btn-primary" href="download.html" role="button"><i class="fa fa-download"></i>Download</a>
             </div>
-        </div>
+        </div> -->
         <!-- iCare's Features-->
         <div class="container">
             <div class="row">
@@ -144,6 +151,13 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
+        <div class="container container-fluid">
+            <h1 class="display-4 text-center" id="supportRefTxt">
+                <i class="fa fa-info-circle"></i>
+                Running into issues? Check out our 
+                <a class="link-info" href="support.html">support page</a>
+            </h1>
         </div>
         <footer>
             <div class="footer-copyright text-center">Copyright © 2021. All rights reserved by iCare Timer.</div>
