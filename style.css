@@ -8,7 +8,7 @@
 }
 
 #downloadBgImg {
-    height:800px;
+    height: 987px;
     background-image: url("img/computer-987-h.jpg");
     /* Add the blur effect */
     filter: blur(4px);
@@ -36,8 +36,12 @@
     font-size: 1.5rem !important;
 }
 
-
 #backArrow, #forwardArrow {
     color: #2991ff;
-    font-size: 3rem;;
+    font-size: 2.5rem;
+}
+
+footer {
+    border-top: 1px solid #2991ff;
+
 }
