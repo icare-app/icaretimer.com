@@ -12,19 +12,24 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+        </style>
     </head>
     <body id="body">
         <nav class="navbar navbar-expand-md navbar-expand-lg sticky-top bg-light">
             <div class="container">
                 <!-- iCare Logo-->
                 <a class="navbar-brand" href="#body">
-                    <img src="img/icon-100px.png" alt="iCare Logo"/>
+                    <div class="row">
+                        <img src="img/icons/favicon.ico" id="logo" alt="iCare Logo"/>
+                        <h1 id="title">iCare</h1>
+                    </div>
                 </a>
-                <h1 class="display-4" id="title">iCare</h1>
                 <!-- Collapsible Navbar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation bar">
                     <span class="navbar-toggler-icon">
-                        <i class="fas fa-bars"></i>
+                        <i class="fa fa-bars"></i>
                     </span>
                 </button>
                 <div id="navbar" class="collapse navbar-collapse">
@@ -37,36 +42,38 @@
         </nav>
         <!-- Sliding Text & Images-->
         <div class="container-fluid" id="downloadBgImg"></div>
-        <div class="container text-center py-5" id="downloadText">
-              <h1 class="display-5 hea">Welcome to iCare</h1>
-              <p class="display-4 description-txt">A Smart Countdown Timer</p>
-              <p class="display-5">Download for Windows & MacOS</p>
-                <button class="btn-primary"><i class="fa fa-windows"></i> <span class="btn-txt">iCare for Windows</span></button>
-                <button class="btn-primary"><i class="fa fa-apple"></i> <span class="btn-txt">iCare for MacOS</span></button>
+        <div class="container text-center py-5" id="downloadTextBox">
+              <h1 id="welcomeTxt">Welcome to <span id="name">iCare</span></h1>
+              <p class=" small-header-txt">A smart countdown timer to prevent eye strain</p>
+              <p>Available for Windows & MacOS</p>
+              <a href="iCare Setup 1.0.0.exe">
+                <button class="btn btn-primary"><i class="fa fa-windows"></i> <span class="btn-txt">iCare for Windows</span></button>
+              </a>  
+                <button class="btn btn-primary"><i class="fa fa-apple"></i> <span class="btn-txt">iCare for MacOS</span></button>
               </div>
               </div>
         <!-- iCare's Features-->
         <div class="container">
-            <h1 class="display-5 text-center header-txt py-3">How it works</h1>
+            <h1 class="text-center header-txt py-3">How it works</h1>
                 <!--20-20-20 Rule-->
                 <div class="text-center">
-                    <p class="lead">iCare helps prevent eye strain by following the 20-20-20 rule</p>
-                    <p class="lead">When the timer ends, users are notified to look at something 20 feet away for a total of 20 seconds</p>
+                    <p class="lead description-txt">iCare helps prevent eye strain by following the 20-20-20 rule</p>
+                    <p class="lead description-txt">When the timer ends, users are notified to look at something 20 feet away for a total of 20 seconds</p>
                 </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-12 col-md-12 col-lg-6">
                   <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Simply start the timer</h5>
-                      <img src="img/home-500px.png">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Simply start the timer</h5>
+                      <img src="img/home-350w.png">
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-12 col-md-6">
                     <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title text-center">When it ends, a 20 second overlay pops up</h5>
-                        <img src="img/overlay-500px.png">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">When it ends, a 20 second overlay pops up</h5>
+                        <img src="img/overlay-350w.png">
                       </div>
                     </div>
                   </div>
@@ -75,9 +82,9 @@
         <!-- iCare's Features-->
 
         <!-- Sliding Text & Images-->
-        <div id="slides" class="container">
+        <div class="container">
             <div class="carousel slide text-center"id="carouselIndicators"  data-ride="carousel" id="textCarousel">
-                <h1 class="display-5 text-center header-txt py-3">Login for additional features</h1>
+                <h1 class="text-center header-txt py-3">Login for additional features</h1>
                 <div class="carousel-inner text-center">
                     <div class="carousel-item active">
                         <div class="card">
@@ -118,7 +125,7 @@
             </div>
         </div>
         <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-4 text-center description-txt">
+            <h1 class="text-center description-txt">
                 <i class="fa fa-info-circle"></i>
                 Running into issues? Check out our 
                 <a class="link-info" href="support.html">support page</a>

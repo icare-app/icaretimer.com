@@ -8,24 +8,28 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">        
+        <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>iCare Timer</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+        </style>
     </head>
     <body id="body">
         <nav class="navbar navbar-expand-md navbar-expand-lg sticky-top bg-light">
             <div class="container">
                 <!-- iCare Logo-->
                 <a class="navbar-brand" href="#body">
-                    <img src="img/icon-100px.png" alt="iCare Logo"/>
+                    <div class="row">
+                        <img src="img/icons/favicon.ico" id="logo" alt="iCare Logo"/>
+                        <h1 id="title">iCare</h1>
+                    </div>
                 </a>
-                <h1 class="display-4" id="title">iCare</h1>
                 <!-- Collapsible Navbar-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation bar">
                     <span class="navbar-toggler-icon">
-                        <i class="fas fa-bars"></i>
+                        <i class="fa fa-bars"></i>
                     </span>
                 </button>
                 <div id="navbar" class="collapse navbar-collapse">
