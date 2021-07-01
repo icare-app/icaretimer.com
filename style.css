@@ -37,7 +37,7 @@ body {
     width: 100%;
     /* Add the blur effect */
     filter: blur(4px);
-    -webkit-filter: blur(4px); 
+    -webkit-filter: blur(4px);
 }
 
 #downloadTextBox { 
@@ -65,6 +65,7 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
     color: #2991ff;
+    font-weight: bolder;
 }
 
 .small-header-txt {
@@ -81,8 +82,18 @@ body {
 }
 
 .footer-copyright {
+    font-size: .8rem;
     margin-top: 0;
     border-top: 1px solid #2991ff;
+}
+
+/** Support Page **/
+
+/** FAQ **/
+.question {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 1px solid #2991ff;
 }
 
 /* iPads (portrait) and higher width----------- */
