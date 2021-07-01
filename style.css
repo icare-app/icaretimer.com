@@ -2,6 +2,8 @@ body {
     font-family: 'Montserrat', sans-serif !important;
 }
 
+/** Navigation Bar **/
+
 #title {
     font-size: 1.5rem;
     font-weight: bold;
@@ -19,18 +21,19 @@ body {
     background-color: #2991ff;
 }
 
+/** Welcome Screen **/
+
 .jumbotron {
     margin-bottom: 0 !important;
 }
 
-.btn-primary {
-    border-radius: 10px;
+.dl-btn {
+    margin-top: 1rem;
 }
-
 
 #downloadBgImg {
     background-image: url("img/computer-mobile.jpg");
-    height: 35rem;
+    height: 30rem;
     width: 100%;
     /* Add the blur effect */
     filter: blur(4px);
@@ -40,10 +43,10 @@ body {
 #downloadTextBox { 
     color: white;
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
     border: 1px solid #f1f1f1;
-    width: 100%;
-    top: 50%;
+    width: 85%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -55,7 +58,6 @@ body {
 
 #name {
     color: #2991ff !important;
-    font-weight: bolder;
 }
 
 .header-txt {
@@ -66,13 +68,8 @@ body {
 }
 
 .small-header-txt {
-    font-size: 1.5rem !important;
+    font-size: 1rem;
 }
-
-.description-txt {
-    font-size: 1rem !important;
-}
-
 
 #backArrow, #forwardArrow {
     color: #2991ff;
