@@ -119,6 +119,39 @@ body {
 }
 
 
+/** Super tiny screens **/
+@media (max-width: 768px) {
+    #downloadTextBox {
+        width: 100% !important;
+    }
+}
+
+
+/* Portrait Smartphones */
+@media only screen
+and (min-device-width: 480px) 
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    #downloadTextBox {
+        top:60%;
+        width: 60% !important;
+    }
+}
+
+/* Portrait Ipads */
+@media only screen
+and (orientation: portrait) 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+    #downloadTextBox {
+        width: 60% !important;
+        height: auto;
+    }
+
+    #downloadBgImg {
+        height: 40rem !important;
+    }
+}
 
 
 /* iPads (portrait) and higher width----------- */
@@ -142,6 +175,8 @@ body {
         font-size: 1.3rem !important;
     }
 }
+
+
 
 /* Desktops and laptops ----------- */
 @media only screen 
