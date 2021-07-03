@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>iCare Timer</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="author" content="Zuby Javed">
         <meta name="description" content="Main website to download iCare desktop app">
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -52,24 +53,38 @@
                 <button class="btn btn-primary dl-btn"><i class="fa fa-apple"></i> <span class="btn-txt">iCare for MacOS</span></button>
               </div>
               </div>
-        <!-- Tutorial (Core Features)-->
+        <!-- Tutorial Images (explains core features)-->
         <div class="container">
             <h1 class="text-center header-txt">How it works</h1>
+            <!-- Homepage Screenshot-->
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6">
-                  <div class="card">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Simply start the timer</h5>
-                      <img src="img/home-300w.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6">
                     <div class="card">
-                      <div class="card-body text-center">
-                        <h5 class="card-title">When it ends, a 20 second overlay pops up</h5>
-                        <img src="img/overlay-300w.png">
-                      </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Simply start the timer</h5>
+                            <img 
+                            srcset="img/home-300w.png 300w,
+                                    img/home-500w.png 500w"  
+                            sizes="(max-width: 600px) 300px, 500px"
+                            src="img/home-300w.png" 
+                            alt="homepage"
+                            >
+                        </div>
+                    </div>
+                </div>
+                <!-- 20s Overlay Screenshot-->
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">When it ends, a 20 second overlay pops up</h5>
+                            <img 
+                            srcset="img/overlay-300w.png 300w,
+                                    img/overlay-500w.png 500w"  
+                            sizes="(max-width: 600px) 300px, 500px"
+                            src="img/overlay-300w.png" 
+                            alt="20 second break screen overlay"
+                            >
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,28 +95,49 @@
                 <h1 class="text-center header-txt py-3">Login for additional features</h1>
                 <div class="carousel-inner text-center">
                     <div class="carousel-item active">
+                        <!--Weekly Timer Usage Screenshot-->
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Track your timer usage and even your app usage.</h5>
-                                <img src="img/weekly-usage-300w.png">
+                                <img 
+                                srcset="img/weekly-usage-300w.png 300w,
+                                        img/weekly-usage-500w.png 500w"  
+                                sizes="(max-width: 600px) 300px, 500px"
+                                src="img/weekly-usage-500w.png" 
+                                alt="weekly timer usage"
+                                >
                                 <p class="small-header-txt">Tracking data usage can be disabled in Preferences.</p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <!--App Blockers Screenshot-->
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Choose apps to block the timer from running.</h5>
-                                <img src="img/blockers-300w.png">
+                                <img 
+                                srcset="img/blockers-300w.png 300w,
+                                        img/blockers-500w.png 500w"  
+                                sizes="(max-width: 600px) 300px, 500px"
+                                src="img/blockers-500w.png" 
+                                alt="weekly timer usage"
+                                >
                                 <p class="small-header-txt">In a Zoom Meeting? Playing a ranked game? The timer won't run. </p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
+                        <!--Custom Sound Notifs Screenshot-->
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Upload custom notification sounds.</h5>
-                                <img src="img/sound-notifs-300w.png">
+                                <img 
+                                srcset="img/sound-notifs-300w.png 300w,
+                                        img/sound-notifs-500w.png 500w"  
+                                sizes="(max-width: 600px) 300px, 500px"
+                                src="img/sound-notif-500w.png" 
+                                alt="weekly timer usage"
+                                >
                                 <p class="small-header-txt">You can enable sound notifications in Preferences.</p>
                             </div>
                         </div>
